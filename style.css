@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0; outline:0}
+body{font-family: verdana; font-size: 18px;color: black }
+
+.wrapper{width: 800px; margin: 0 auto;}
+.clr{overflow: hidden;}
+.headsection, .footersection{background: #3b5998;padding: 10px;text-align: center; width: 780px;margin: 0 auto; color: #fff;}
+.headsection a, .footersection a{color: #fff; margin: 5px; text-decoration: none;}
+.headsection a:hover, .footersection a:hover{color: #D5DAE9;}
+.headsection h2, .footersection h2{}
+.content{border: 15px solid #3b5998;min-height: 500px; }
+.box{border: 5px solid  #8b9dc3;margin: 30px auto 0; padding: 20px;width:600px; height:180px; overflow: scroll;}
+.box ul{margin: 0; padding: 0;list-style: none;}
+.box ul li{display: block;border-bottom: 1px dashed #dfe3ee; margin-bottom: 5px;padding-bottom: 5px;}
+.box ul li:last_child{border-bottom: 0px dashed #dfe3ee; margin-bottom: 0px;padding-bottom: 0px;}
+.box span{color: black}
+
+.shoutbox{border: 5px solid #8b9dc3;margin:20px auto 10px; padding: 20px; width: 600px}
+input[type="text"]{padding: 5px;width: 500px;margin-bottom: 10px}
+input[type="submit"]{background: #3b5998;border: 1px solid #3b5998;color: #fff;cursor: pointer;font-size: 25px;padding: 5px 20px;}
